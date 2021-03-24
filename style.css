@@ -1,0 +1,44 @@
+main {
+    display: grid;
+    height: 800px;
+    max-width: 900px;
+    margin: auto;
+    background: lightgrey;
+    grid-template-columns: 150px 1fr 100px;
+}
+
+.sidebar {
+    background: lightgreen;
+}
+
+.content {
+    background: lightpink;
+    display: grid;
+    grid-template-rows: 50px 1fr;
+}
+
+header {
+    background: white;
+    text-align: center;
+}
+
+.features {
+    background: turquoise;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.columnA {
+    background:crimson;
+}
+
+.columnB {
+    background: darkmagenta;
+}
+
+.columnC {
+    background:darksalmon;
+}
+.locations {
+    background: lightyellow;
+}

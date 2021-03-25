@@ -3,7 +3,6 @@ main {
     height: 800px;
     max-width: 900px;
     margin: auto;
-    background: lightgrey;
     grid-template-columns: 150px 1fr 100px;
 }
 
@@ -12,7 +11,6 @@ main {
 }
 
 .content {
-    background: lightpink;
     display: grid;
     grid-template-rows: 50px 1fr;
 }
@@ -23,21 +21,52 @@ header {
 }
 
 .features {
-    background: turquoise;
     display: grid;
     grid-template-columns: repeat(3, auto);
 }
 
 .columnA {
+    display: grid;
     background:crimson;
+    grid-template-rows: repeat(3, auto);
 }
-
+.box1 {
+    display: grid;
+    background: chocolate; 
+}
+.box2 {
+    display: grid;
+    background: white;
+}
 .columnB {
-    background: darkmagenta;
+    display: grid;
+    background: purple;
+    grid-template-rows: 30% auto;
 }
-
+.box4 {
+    display: grid;
+    background:  yellow; 
+}
+.box5 {
+    display: grid;
+    background: green;
+}
 .columnC {
-    background:darksalmon;
+    display: grid;
+    background: white;
+    grid-template-rows: 22% auto 22%;
+}
+.box6 {
+    display: flexgrid;
+    background: orange; 
+}
+.box7 {
+    display: grid;
+    background: blue;
+}
+.box8 {
+    display: grid;
+    background: purple;
 }
 .locations {
     background: lightyellow;
